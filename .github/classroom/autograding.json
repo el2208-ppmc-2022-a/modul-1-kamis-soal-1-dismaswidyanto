@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "3\r\n150000, 2\r\n80000, 5\r\n120000, 3\r\n1",
+      "output": "Berikut adalah detail pilihan harga termurah yang disarankan:\r\nHarga = Rp 80000\r\nLama perjalanan = 5 Jam",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "2\r\n500000, 4\r\n750000, 2\r\n2",
+      "output": "Berikut adalah detail pilihan perjalanan tersingkat yang disarankan:\r\nHarga = Rp 750000\r\nLama perjalanan = 2 Jam",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "5\r\n30000, 3\r\n40000, 2\r\n50000, 2\r\n10000, 5\r\n75000, 1\r\n3",
+      "output": "Berikut adalah detail pilihan yang disarankan:\r\nHarga termurah:\r\nHarga = Rp 10000\r\nLama perjalanan = 5 Jam\r\nPerjalanan tersingkat:\r\nHarga = Rp 75000\r\nLama perjalanan = 1 Jam",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "2\r\n40000, 4\r\n40000, 3\r\n1",
+      "output": "Berikut adalah detail pilihan harga termurah yang disarankan:\r\nHarga = Rp 40000\r\nLama perjalanan = 3 Jam",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "4\r\n45000, 5\r\n15000, 10\r\n30000, 6\r\n50000, 5\r\n2",
+      "output": "Berikut adalah detail pilihan perjalanan tersingkat yang disarankan:\r\nHarga = Rp 45000\r\nLama perjalanan = 5 Jam",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "3\r\n10000, 5\r\n20000, 4\r\n30000, 4\r\n3",
+      "output": "Berikut adalah detail pilihan yang disarankan:\r\nHarga termurah:\r\nHarga = Rp 10000\r\nLama perjalanan = 5 Jam\r\nPerjalanan tersingkat:\r\nHarga = Rp 20000\r\nLama perjalanan = 4 Jam",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "5\r\n50250, 5\r\n40750, 4\r\n20500, 10\r\n35750, 6\r\n26770, 7\r\n1",
+      "output": "Berikut adalah detail pilihan harga termurah yang disarankan:\r\nHarga = Rp 20500\r\nLama perjalanan = 10 Jam",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "4\r\n30850, 8\r\n40600, 6\r\n25250, 10\r\n32520, 4\r\n2",
+      "output": "Berikut adalah detail pilihan perjalanan tersingkat yang disarankan:\r\nHarga = Rp 32520\r\nLama perjalanan = 4 Jam",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "3\r\n51050, 5\r\n25760, 4\r\n42720, 6\r\n3",
+      "output": "Berikut adalah detail pilihan yang disarankan:\r\nHarga termurah:\r\nHarga = Rp 25760\r\nLama perjalanan = 4 Jam\r\nPerjalanan tersingkat:\r\nHarga = Rp 25760\r\nLama perjalanan = 4 Jam",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "2\r\n11720, 4\r\n21840, 6\r\n3",
+      "output": "Berikut adalah detail pilihan yang disarankan:\r\nHarga termurah:\r\nHarga = Rp 11720\r\nLama perjalanan = 4 Jam\r\nPerjalanan tersingkat:\r\nHarga = Rp 11720\r\nLama perjalanan = 4 Jam",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
